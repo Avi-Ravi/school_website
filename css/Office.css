@@ -1,0 +1,45 @@
+#user{
+	text-align: left;
+	float: left;
+}
+h3 a button{
+	text-align: center;
+	width: 150px;
+	height: 28px;
+	border-radius: 6px; 
+	background-color: rgba(44,234,56,34);
+	float: left;
+}
+#Operation legend{ 
+	color: rgba(120,20,12,23);
+	font-size:22px;
+	text-align: center;
+}
+#Operation{
+	float: left;
+	width: 29%;
+	margin: 12px;
+	border-color: rgba(33,143,56,43);
+	background:linear-gradient(13deg,red,blue);
+}
+#box{
+	width: 234px;
+	height: 24px;
+	background-color: inherit;
+	border-style: ridge;
+}
+ul li{
+	display: inline-block;
+}
+#hitme{
+	font-size:20px;
+	background-color: inherit;
+}
+* input,fieldset{
+	border-radius: 5px;
+}
+iframe{
+	width: 100%; 
+	background:linear-gradient(-13deg,red,white);
+		height: auto;
+}

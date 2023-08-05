@@ -1,0 +1,52 @@
+fieldset legend{
+	font-size: 24px;
+	text-align: right;
+	font-style: italic;
+}
+#rTable{
+	text-align: center;
+	margin: 20px 40px 20px 250px;
+}
+#atrribute{
+	background-color: rgba(38,180,1,78);
+}
+#atrribute input,select,textarea{
+	width: 300px;
+	height: 27px;
+	font-size: 17px;
+	border-radius: 4px;
+}
+#radioB, #record{
+		background-color: rgba(38,213,1,78);
+}
+#blank{
+	background-color: rgba(214,12,23,34);
+}
+#sub{
+	background-color: rgba(68,294,11,112);
+}
+td{
+	width: 200px;
+}
+@media only screen and (min-width:150px)and (max-width: 800px)
+{
+	div{
+		margin-left: -10px; 
+	}
+	fieldset legend{
+		font-size: 18px;
+	}
+	#rTable{
+		margin: 0px -10px 0px -10px;
+	}
+	#atrribute input,select,textarea{
+		width: 160px;
+		height: 24px;
+		font-size: 18px;
+		border-radius: 4px;
+	}
+	td{
+		width: 180px;
+		font-size: 17px;
+	}
+}

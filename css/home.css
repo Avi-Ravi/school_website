@@ -1,0 +1,52 @@
+#slider img{
+	max-width: 220px;
+	height: 180px;
+}
+td img{
+	width: 200px;
+	height: 280px;
+	float: left;
+	border-radius: 4px;
+}
+#ATable{
+	font-family:"Comic Sans MS";
+	font-style: italic; 
+	font-size: 22px;
+	border-radius: 15px;
+}
+#ATable tr td{
+	width: 45%;
+	background-color: rgba(194,39,50,176);
+
+}
+#come{
+	text-shadow: 13px 0px 10px white;
+	font-size: 80px;
+	font-style: Geneva, Arial, Helvetica, sans-serif;
+	color:rgba(100,47,148,67);
+}
+#Achive legend{
+	font-size: 29px;
+	color: rgb(43,78,22);
+}
+@media only screen and (min-width:150px)and (max-width: 700px)
+{
+	#ATable{
+	font-size:18px;
+	}
+	td img{
+	width: 150px;
+	height: 180px;
+	border-radius: 4px;
+	}
+	#come{
+		font-size: 26px;
+	}
+	#ATable tr *td{
+		width: 170px;
+		text-align: left;
+	}
+	#Achive{
+		margin: -17px;
+	}
+}

@@ -1,0 +1,56 @@
+#office{
+
+	text-align: center;
+	background-color: rgba(23,86,14,134);
+	font-size: 30px;
+	max-width: 440px;
+	margin-left: 30%; 
+	border-style: ridge;
+	border-radius: 6px;
+}
+#Label{
+	width: 155%;
+	font-size: 23.3px;
+	text-align: center;
+	color: rgba(323,143,145,67);
+	border-style: dotted;
+	border-radius: 5px;
+	border-color: rgb(324,256,120);
+}
+#Label input{
+	width: 95%;
+	height: 28px;
+	size: 22px;
+}
+#Login{
+	width: 170%;
+	height: 32px;
+	border-radius: 15px;
+	background-color: rgb(12,34,234);
+}
+@media only screen and (min-width:150px)and (max-width: 700px)
+{
+	#office{
+	font-size: 19px;
+	width: 320px;
+	margin-left: -10px; 
+}
+#Label{
+	width: 105%;
+	font-size: 18.3px;
+	border-radius: 5px;
+}
+#Label input{
+	width: 85%;
+	height: 28px;
+	size: 18px;
+	background-color: rgba(183,193,189,65);
+	border-radius: 7px 0px 0px 7px;
+}
+#Login{
+	width: 120%;
+	height: 25px;
+	border-radius: 15px;
+}
+
+}

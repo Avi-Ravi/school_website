@@ -1,0 +1,101 @@
+body{
+	margin:0px 50px 0px 50px; 
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	background: radial-gradient(white,lightpink,pink,deeppink);
+}
+@keyframes learn {
+	0%{background-color: deeppink;}
+	13% {background-color: pink;}
+ 	26% {background-color: lightgreen;}
+ 	39%{background-color: green;}
+ 	52% {background-color: yellow;}
+ 	65%{background-color: skyblue;}
+ 	78%{background-color: blue;}
+ 	100% {background-color: orange;}
+}
+*{
+	margin: 8px;
+}
+
+header{
+	background-color: blue ;
+	font-size: 55PX;
+	padding: 20px;
+	animation-name: learn;
+ 	animation-duration: 20s;
+ 	animation-iteration-count: infinite;
+ 	border-radius: 5px 5px 0px 0px;
+ 	text-align: center;
+ 	color: white;
+ 	font-size: bold;
+ }
+b img{
+	width: 80px;
+	height: 80px;
+	margin: -15px 0px -10px 0px;
+	border-radius: 20px;
+}
+nav ul{
+	margin-top: -8px;
+	background-color: deeppink;
+	border-radius: 6px 6px 2px 2px;
+	width: 95.8%;
+}
+nav ul li{
+	font-size: 20px;
+	padding: 5px;
+	display:inline-block;
+	text-align: center;
+	border-radius: 5px;
+	width: 14%;
+}
+nav ul li:hover{
+	background-color: orange;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+nav ul li a link{
+	background-color: orange;
+}
+nav{
+	margin: -5px;
+}
+@media only screen and (min-width:150px )and (max-width: 600px)
+{
+	header{
+		font-size: 19px;
+	}
+	nav{
+		width: 91.5%;
+	}
+	nav ul{
+		height: 120px;
+	}
+	nav ul li{
+		width: 43%;
+		font-size: 18px;
+		padding: 0px;
+		display:inline-block;
+		text-align: center;
+		border-radius: 2px;
+	}
+	nav ul li:hover{
+		background-color: orange;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}	
+	a link{
+		background-color: orange;
+	}
+	b img{
+	width: 40px;
+	height: 40px;
+	margin: -15px 0px -10px 0px;
+	border-radius: 20px;
+}
+
+}

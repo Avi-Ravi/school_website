@@ -1,0 +1,29 @@
+.gallery{
+	padding-left: 5px;
+	margin: 20px;
+	border-width: 5px;
+	border-color: red;
+	border:ridge;
+	border-radius: 0px 12px 8px 0px;
+	box-shadow: 2px 2px 7px;
+}
+.gallery img{
+	width: 200px;
+	height: 120px;
+	margin: 8px;
+	border-style: groove;
+	border-width: 2px;
+	border-color: green;
+	padding-right: 0px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.2);
+}
+#Event{
+	color: forestgreen;
+	font-size: 20px;
+	text-align: center;
+	}

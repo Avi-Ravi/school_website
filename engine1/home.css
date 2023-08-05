@@ -1,0 +1,18 @@
+#RightSide fieldset{
+  text-align: center;
+}
+#TTable td{
+  background-color:rgba(93,96,193,76);
+  font-size:17.5px; 
+  word-spacing: 3px;
+}
+#m1{
+font-size:20px; 
+margin: 5px;
+font-family:Georgia, 'Times New Roman', Times, serif; 
+letter-spacing:2px; 
+text-align:justify; 
+font-style:oblique;
+color:#FF0000;
+word-spacing: 4px;
+}
